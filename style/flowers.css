@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F8FF;
+}
+
+/* Shared styles */
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Navbar area styles */
+
+.menu ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li{
+    height: 50px;
+}
+
+.menu li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #8987A1;
+    transition: 0.3s;
+}
+
+.menu li a:hover{
+    color: #113F67;
+}
+
+.menu li:first-child{
+    margin-right: auto;
+}
+
+.menu li:first-child a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E95A08;
+}
+
+.menu li:first-child a:hover{
+    color: #555879;
+}
+
+.menu li:nth-child(2){
+    font-weight: bold;
+    color: #252432;
+}
+
+.menu li:last-child a{
+    color: #000000;
+}
+
+.material-symbols-outlined{
+    padding-right: 5px;
+}
+
+.menu li:last-child a:hover{
+    color: #E95A08;
+}
