@@ -41,6 +41,7 @@ body {
 }
 
 .text-style {
+  font-family: "Inter", sans-serif;
   font-size: 1.3rem;
   color: rgb(0, 0, 0, 50%);
 }
@@ -149,12 +150,12 @@ body {
 
 /* Plants section area styles */
 
-.plants-content {
+.plants-content, .latest-deals-content {
   text-align: center;
   margin-top: 120px;
 }
 
-.plants-content-descriptin {
+.plants-content-descriptin, .latest-deals-descriptin {
   max-width: 888px;
   margin: 16px auto 49px auto;
 }
@@ -232,6 +233,77 @@ body {
 .plants-lover-description li {
   margin: 20px auto;
 }
+
+/* Latest Deals Section styles */
+
+.latest-deals{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    gap: 28px;
+    margin: 120px auto;
+}
+
+/* Latest Deals common styles */
+
+.latest-deals-common{
+    place-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.latest-deals-title{
+    font-family: "Noto Serif", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.latest-deals-btn{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/* Latest Deals left area styles */
+
+.latest-deals-left{
+    width: 367px;
+    display: grid;
+    gap: 25px;
+}
+
+.bloom-plant{
+    height: 201px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../assets/deal-bloom.png) no-repeat;
+}
+
+.ana-plant{
+    height: 197px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/deal-ana.png) no-repeat;
+}
+
+/* Latest Deals right area styles */
+
+.latest-deals-right{
+    width: 753px;
+}
+
+.zabo-plant{
+    height: 423.13px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/deal-zabo.png) no-repeat;
+}
+
+.zabo-title{
+    font-size: 2.5rem;
+}
+
+.zabo-btn{
+    font-size: 1.8rem;
+}
+
+
 
 /* Responsive for Mobile Devices */
 
