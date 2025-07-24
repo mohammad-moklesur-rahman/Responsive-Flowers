@@ -84,3 +84,46 @@ body{
 .menu li:last-child a:hover{
     color: #E95A08;
 }
+
+/* Banner area styles */
+
+
+
+/* Responsive for Mobile Devices */
+
+@media screen and (max-width:576px) {
+
+    /* Responsive for Navbar area */
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+/* Responsive for Tablet Devices */
+
+@media screen and (min-width:576px) and (max-width:768px) {
+
+    /* Responsive for Navbar area */
+    .header{
+        background-color: #FBF5DE;
+        top: 0;
+        position: sticky;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+/* Responsive for Large Devices */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    /* Responsive for Navbar area */
+    .header{
+        background-color: #FBF5DE;
+        top: 0;
+        position: sticky;
+    }
+
+}
