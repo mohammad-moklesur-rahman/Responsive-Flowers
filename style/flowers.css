@@ -231,7 +231,19 @@ body{
     .banner-right img{
         width: 100%;
     }
+
+    /* Responsive for Plants section */
+
+    .plants-content-descriptin{
+        padding: 0 30px;
+    }
+
+    .plants-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
+
 
 /* Responsive for Tablet Devices */
 
@@ -276,6 +288,20 @@ body{
     .banner-right img{
         width: 100%;
     }
+
+    /* Responsive for Plants section */
+
+    .plants-content-descriptin{
+        padding: 0 30px;
+    }
+
+    .plants-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item{
+        max-width: 384px;
+    }
 }
 
 /* Responsive for Large Devices */
@@ -310,6 +336,16 @@ body{
         font-size: 1.4rem;
         margin-top: 10px;
         text-align: justify;
+    }
+
+     /* Responsive for Plants section */
+
+    .plants-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item{
+        max-width: 340px;
     }
 
 }
