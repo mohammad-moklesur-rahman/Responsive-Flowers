@@ -36,6 +36,20 @@ body{
     "wdth" 100;
 }
 
+.text-style{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.btn{
+    background-color: #E95A08;
+    padding: 19px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
 /* Navbar area styles */
 
 .menu ul{
@@ -120,15 +134,64 @@ body{
     color: #000000;
 }
 
-.banner-description{
-    font-size: 1.3rem;
-    color: rgb(0, 0, 0, 50%);
-}
-
 .banner-right{
     display: flex;
     align-items: flex-end;
 }
+
+/* Plants section area styles */
+
+.plants-content{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plants-content-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.plants-content-title span{
+    color: #E95A08;
+}
+
+.plants-content-descriptin{
+    max-width: 888px;
+    margin: 16px auto 49px auto;
+    
+}
+
+/* Plants items area */
+
+.plants-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 40px 20px;
+}
+
+.item{
+    max-width: 270px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item-title, .item-prise{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item-prise{
+    font-weight: bold;
+    margin: 10px auto 20px auto;
+}
+
 
 
 
