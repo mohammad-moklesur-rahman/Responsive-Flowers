@@ -45,6 +45,10 @@ body {
   color: rgb(0, 0, 0, 50%);
 }
 
+.common-color {
+  color: #e95a08;
+}
+
 .btn {
   background-color: #e95a08;
   padding: 19px;
@@ -150,10 +154,6 @@ body {
   margin-top: 120px;
 }
 
-.content-title span {
-  color: #e95a08;
-}
-
 .plants-content-descriptin {
   max-width: 888px;
   margin: 16px auto 49px auto;
@@ -199,39 +199,39 @@ body {
   margin-top: 210px;
 }
 
-.store-img-area{
-    position: relative;
+.store-img-area {
+  position: relative;
 }
 
 .store-img img {
   width: 100%;
 }
 
-.badge{
-    width: 286px;
-    position: absolute;
-    top: -110px;
-    right: -90px;
+.badge {
+  width: 286px;
+  position: absolute;
+  top: -110px;
+  right: -90px;
 }
 
 /* Plants Lover Content area */
 
-.plants-lover-content{
-    max-width: 540px;
-    margin-top: 58px;
+.plants-lover-content {
+  max-width: 540px;
+  margin-top: 58px;
 }
 
-.plants-lover-description{
-    margin-left: 35px;
+.plants-lover-title span {
+  display: block;
 }
 
-.plants-lover-description li{
-    margin: 20px auto;
+.plants-lover-description {
+  margin-left: 35px;
 }
 
-
-
-
+.plants-lover-description li {
+  margin: 20px auto;
+}
 
 /* Responsive for Mobile Devices */
 
@@ -277,6 +277,35 @@ body {
 
   .plants-items {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Responsive for Plants Lover Section */
+
+  .plants-lover {
+    flex-direction: column;
+    margin-top: 72px;
+    gap: 10px;
+  }
+
+  .store-img-area img {
+    width: 100%;
+  }
+
+  .plants-lover-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .plants-lover-title span {
+    display: inline;
+  }
+
+  .plants-lover-title {
+    font-size: 1.8rem;
+  }
+
+  .plants-lover-description {
+    font-size: 1rem;
   }
 }
 
@@ -336,6 +365,29 @@ body {
   .item {
     max-width: 384px;
   }
+
+  /* Responsive for Plants Lover Section */
+
+  .plants-lover {
+    flex-direction: column;
+    margin-top: 72px;
+    gap: 10px;
+  }
+
+  .store-img-area img {
+    width: 100%;
+  }
+
+  .plants-lover-content {
+    max-width: 768px;
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .plants-lover-title span {
+    display: inline;
+  }
 }
 
 /* Responsive for Large Devices */
@@ -379,5 +431,33 @@ body {
 
   .item {
     max-width: 340px;
+  }
+
+  /* Responsive for Plants Lover Section */
+
+  .plants-lover {
+    flex-direction: column;
+    margin-top: 72px;
+    gap: 10px;
+  }
+
+  .store-img-area img {
+    width: 100%;
+  }
+
+  .badge{
+    display: none;
+  }
+
+  .plants-lover-content {
+    max-width: 992px;
+    margin-top: 20px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+  
+  .plants-lover-title span {
+    display: inline;
+    color: #e95a08;
   }
 }
