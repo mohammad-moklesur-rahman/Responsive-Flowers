@@ -97,13 +97,14 @@ body {
   margin-right: auto;
 }
 
-.menu li:first-child a {
+.menu li:first-child a, .logo {
   font-size: 24px;
   font-weight: bold;
   color: #e95a08;
+  transition: 0.3s;
 }
 
-.menu li:first-child a:hover {
+.menu li:first-child a:hover, .logo:hover {
   color: #555879;
 }
 
@@ -354,6 +355,88 @@ body {
   margin-left: -4px;
   cursor: pointer;
 }
+
+/* Footer Section styles */
+
+.footer{
+  background-color: #FAFCFF;
+}
+
+.footer-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 20px;
+  padding: 50px 0 20px 0;
+}
+
+/* Footer info area styles */
+
+.logo{
+  text-decoration: none;
+}
+
+.footer-description{
+  max-width: 270px;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0, 50%);
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Footer menu and Footer menu features area styles */
+
+.footer-menu, .footer-menu-features{
+  display: grid;
+  justify-content: center;
+}
+
+.footer-menu ul, .footer-menu-features ul{
+  list-style: none;
+}
+
+.footer-menu li, .footer-menu-features li{
+  height: 35px;
+}
+
+.footer-menu li a, .footer-menu-features li a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.footer-menu li a:hover, .footer-menu-features li a:hover{
+  transition: 0.3s;
+  color: #E95A08;
+}
+
+/* Footer icons area styles */
+
+.footer-icons{
+  display: grid;
+  justify-content: end;
+}
+
+.footer-icons img{
+  width: 30px;
+  margin-right: 20px;
+}
+
+/* Copy Right area styles */
+
+.copy-right{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 0.7rem;
+  color: #555879;
+}
+
+.copy-right:hover{
+  color: #E95A08;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
 
 
 
