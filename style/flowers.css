@@ -21,6 +21,11 @@ body {
   margin: 0 auto;
 }
 
+.container-2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -303,6 +308,50 @@ body {
 
 .zabo-btn{
     font-size: 1.8rem;
+}
+
+/* Joining Section styles */
+
+.joining-area{
+  display: grid;
+  place-content: center;
+  background: url(../assets/news-letter-bg.png) no-repeat;
+  height: 533px;
+}
+
+.joinign-title{
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.joining-input input{
+  width: 644px;
+  padding: 15px;
+}
+
+.joining-input input:focus{
+  outline: 2px solid #E95A08;
+  border: none;
+}
+
+.joining-input input::placeholder, .joining-input input{
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0, 50%);
+}
+
+.joining-btn{
+  background-color: #E95A08;
+  padding: 17px 53px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-left: -4px;
+  cursor: pointer;
 }
 
 
