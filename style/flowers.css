@@ -317,6 +317,7 @@ body {
   place-content: center;
   background: url(../assets/news-letter-bg.png) no-repeat;
   height: 533px;
+  background-size: cover;
 }
 
 .joinign-title{
@@ -472,6 +473,25 @@ body {
         height: 172px;
     }
 
+    /* Responsive Joining Section */
+
+    .joining-area{
+      height: 276px;
+      margin-top: 70px;
+    }
+
+    .joinign-title{
+      font-size: 1.25rem;
+    }
+
+    .joining-input input{
+      max-width: 218px;
+    }
+
+    .joining-btn{
+      padding: 17px 12px;
+    }
+
 }
 
 /* Responsive for Tablet Devices */
@@ -581,6 +601,25 @@ body {
         width: 100%;
     }
 
+     /* Responsive Joining Section */
+
+    .joining-area{
+      height: 300px;
+      margin-top: 70px;
+    }
+
+    .joinign-title{
+      font-size: 1.5rem;
+    }
+
+    .joining-input input{
+      max-width: 250px;
+    }
+
+    .joining-btn{
+      padding: 17px 15px;
+    }
+
 }
 
 /* Responsive for Large Devices */
@@ -680,6 +719,25 @@ body {
 
     .latest-deals-right{
         width: 100%;
+    }
+
+    /* Responsive Joining Section */
+
+    .joining-area{
+      height: 350px;
+      margin-top: 70px;
+    }
+
+    .joinign-title{
+      font-size: 2rem;
+    }
+
+    .joining-input input{
+      max-width: 350px;
+    }
+
+    .joining-btn{
+      padding: 17px 25px;
     }
 
 }
